@@ -23,10 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://polar-sands-36626.herokuapp.com/parse"
             })
         )
-        if PFUser.current() != nil {
-            
-        }
-        
+
         return true
     }
 
